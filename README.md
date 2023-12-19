@@ -17,6 +17,12 @@ This application manages enrollments for yoga classes, allowing users to enroll,
 2. Install the required packages: `pip install -r requirements.txt`.
 3. Run the application: `python app.py`.
 
+### Features
+
+- Enrollment: Allows users to enroll in yoga classes by providing their name, age, and preferred batch timings.
+- Batch Update: Users can update their batch preferences if the current month is after their initial enrollment month.
+- Admin Dashboard: Provides an admin route to view all enrollment details, including batch information.
+
 ## Usage
 
 ### Routes
@@ -28,7 +34,7 @@ This application manages enrollments for yoga classes, allowing users to enroll,
 
 ### Database
 
-The application uses an SQLite database (`yogaa.db`) to store enrollment details. 
+The application uses an SQLite database (`yoga-class.db`) to store enrollment details. 
 
 ### File Structure
 
