@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Secrets{% endblock %}
+{% block content %}
+<!--Using Boostrap classes for styling here-->
+<div class="jumbotron d-flex align-items-center justify-content-center text-center">
+	<div class="container text-center">
+		<h1>Welcome to Yoga class</h1>
+		<p>Enroll here</p>
+		<a class="btn btn-primary btn-lg" href=" {{ url_for('enroll') }} ">Enroll</a>
+        <p >Update batch here</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('update_batch') }}">Update</a>
+	</div>
+
+</div>
+{% endblock %}

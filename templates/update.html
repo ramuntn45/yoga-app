@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block title %}Update batch{% endblock %}
+{% block content %}
+    <div class="container">
+    <h1>Update</h1>
+        {{ render_form(form) }}
+    </div>
+    <div class="alert">
+    {% if message %}
+    <h3>{{message}}</h3>
+    {% endif %}
+    </div>
+{% endblock %}
